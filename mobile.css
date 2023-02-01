@@ -1,0 +1,33 @@
+
+@media screen and (max-width: 600px) {
+    [class*="card"]{
+        display: flex;
+        flex-direction: column;
+    }
+
+    [class*="sedanscard"]{
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+    [class*="luxurycard"]{
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        height: 90rem;
+    }
+
+    body {
+        margin: 5rem 0 5rem 0;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    [class*="btn"]{
+        margin: 1rem 0 0 0;
+    }
+} 
